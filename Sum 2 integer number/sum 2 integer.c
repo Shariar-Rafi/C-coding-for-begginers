@@ -1,13 +1,13 @@
 #include<stdio.h>
 int main(){
-    int a, b, sum;
+    int number1, number2, sum;
     printf("Inter 2 integer number ");
 
-    scanf("%d %d", &a, &b);
+    scanf("%d %d", &number1, &number2);
 
-    sum=a+b;
+    sum=number1+number2;
 
-    printf("%d+%d=%d",a,b, sum);
+    printf("%d+%d=%d",number1,number2, sum);
 
 
 return 0;
